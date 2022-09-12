@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    img {
+      width: 100%;
+    }
+
+    .detail-banner-img-slider {
+      max-height: 100vh;
+    }
+
+    .main-img img {
+      max-height: 80vh;
+    }
+
+    .detail-banner-thumbail-img {
+      margin-top: -230px;
+    }
+
+    .thumbnail-img {
+      padding: 0px 10px;
+    }
+
+    .detail-banner-thumbail-img .slick-track {
+      padding: 100px 0px !important;
+    }
+
+    .slick-center {
+      margin-top: -100px;
+    }
+
+    .iamCenterPrevious {
+      margin-top: -70px
+    }
+
+    .iamCenterAfter {
+      margin-top: -70px
+    }
+
+    .iamCenterPreviousTwo {
+      margin-top: -40px
+    }
+
+    .iamCenterAfterTwo {
+      margin-top: -40px
+    }
+  </style>
+</head>
+
+<body>
+  <section class="listings-details-banner">
+
+    <div class="detail-banner-img">
+      <div class="detail-banner-img-slider">
+        <div class="main-img">
+          <img src="images/item1.png" alt="">
+        </div>
+        <div class="main-img">
+          <img src="images/item1.png" alt="">
+        </div>
+        <div class="main-img">
+          <img src="images/item1.png" alt="">
+        </div>
+        <div class="main-img">
+          <img src="images/item1.png" alt="">
+        </div>
+        <div class="main-img">
+          <img src="images/item1.png" alt="">
+        </div>
+        <div class="main-img">
+          <img src="images/item1.png" alt="">
+        </div>
+        <div class="main-img">
+          <img src="images/item1.png" alt="">
+        </div>
+        <div class="main-img">
+          <img src="images/item1.png" alt="">
+        </div>
+        <div class="main-img">
+          <img src="images/item1.png" alt="">
+        </div>
+        <div class="main-img">
+          <img src="images/item1.png" alt="">
+        </div>
+        <div class="main-img">
+          <img src="images/item1.png" alt="">
+        </div>
+        <div class="main-img">
+          <img src="images/item1.png" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="detail-banner-thumbail-img">
+      <div class="thumbnail-img">
+        <img src="images/item1.png" alt="">
+      </div>
+      <div class="thumbnail-img">
+        <img src="images/item1.png" alt="">
+      </div>
+      <div class="thumbnail-img">
+        <img src="images/item1.png" alt="">
+      </div>
+      <div class="thumbnail-img">
+        <img src="images/item1.png" alt="">
+      </div>
+      <div class="thumbnail-img">
+        <img src="images/item1.png" alt="">
+      </div>
+      <div class="thumbnail-img">
+        <img src="images/item1.png" alt="">
+      </div>
+      <div class="thumbnail-img">
+        <img src="images/item1.png" alt="">
+      </div>
+      <div class="thumbnail-img">
+        <img src="images/item1.png" alt="">
+      </div>
+      <div class="thumbnail-img">
+        <img src="images/item1.png" alt="">
+      </div>
+      <div class="thumbnail-img">
+        <img src="images/item1.png" alt="">
+      </div>
+      <div class="thumbnail-img">
+        <img src="images/item1.png" alt="">
+      </div>
+      <div class="thumbnail-img">
+        <img src="images/item1.png" alt="">
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+  integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+  integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+  $('.detail-banner-img-slider').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    fade: true,
+    prevArrow: false,
+    nextArrow: false,
+    fade: true,
+    dots: false,
+    draggable: true,
+    swipeToSlide: false,
+    touchMove: false,
+    asNavFor: '.detail-banner-thumbail-img'
+  });
+
+  $('.detail-banner-thumbail-img').on('init', function (event, slick) {
+    $('.slick-current').prev().addClass('iamCenterPrevious');
+    $('.slick-current').next().addClass('iamCenterAfter');
+    $('.slick-current').prev().prev().addClass('iamCenterPreviousTwo');
+    $('.slick-current').next().next().addClass('iamCenterAfterTwo');
+  });
+  jQuery('.detail-banner-thumbail-img').on('beforeChange', function (event, slick, currentSlide, nextSlide) {
+    $('.slick-slide').removeClass('iamCenterPrevious iamCenterAfter iamCenterPreviousTwo iamCenterAfterTwo');
+  });
+  $('.detail-banner-thumbail-img').on('afterChange', function () {
+    $('.slick-current').prev().addClass('iamCenterPrevious');
+    $('.slick-current').next().addClass('iamCenterAfter');
+    $('.slick-current').next().next().addClass('iamCenterAfterTwo');
+    $('.slick-current').prev().prev().addClass('iamCenterPreviousTwo');
+  });
+  $('.detail-banner-thumbail-img').slick({
+    slidesToShow: 7,
+    slidesToScroll: 1,
+    asNavFor: '.detail-banner-img-slider',
+    dots: false,
+    focusOnSelect: true,
+    centerMode: true,
+    responsive: [
+     
+
+        {
+            breakpoint: 1028,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+            }
+        },
+        {
+            breakpoint: 800,
+            settings: {
+                slidesToShow: 4.8,
+                slidesToScroll: 1,
+            }
+        },
+        {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 1.7,
+                slidesToScroll: 1,
+                centerMode:true,
+                vertical: false,
+                centerMode: true,
+            }
+        }
+            // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+        ]
+  });
+
+
+</script>

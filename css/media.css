@@ -1,0 +1,1517 @@
+/* For 1920 x 1080 */
+@media (min-width: 1601px){
+    p{
+        font-size: 18px;
+        line-height: 30px;
+    }
+    a{
+        font-size: 16px;
+    }
+    h1{
+        font-size: 36px;
+    }
+    /* For header */
+    .header-width1 img{
+        max-width: 100%;
+    }
+    nav.navbar ul li{
+        padding-left: 40px;
+    }
+    header.active img{
+        width: 70%;
+    }
+    /* For index page */
+    .banner-text h1{
+        font-size: 54px;
+        max-width: 49%;
+    }
+    .tabbing-section h2{
+        font-size: 36px;
+    }
+    ul.tabs2 li a{
+        font-size: 18px;
+    }
+    .index-properties-width2{
+        margin-top: -270px;
+        padding: 100px 150px;
+        width: 78%;
+    }
+    .properties-back {
+        background-image: linear-gradient(to bottom, #F9F9F9 69%, white 40%);
+    }
+    .service-width1-para{
+        max-width: 43%;
+    }
+    .services h2:nth-child(1){
+        font-size: 36px;
+    }
+    .services h2{
+        font-size: 22px;
+        margin-top: 10px;
+    }
+    .service-width1{
+        width: 23.8%;
+    }
+    .founder{
+        max-width: 965px;
+        justify-content: space-between;
+    }
+    .founder-pic img{
+        height: 522px;
+    }
+    .founder-content{
+        width: 50%;
+    }
+    .work-with-us{
+        height: 850px;
+    }
+    .work-with-content{
+        padding: 80px;
+    }
+    .footer1-width2-content input{
+        width: 430px;
+    }
+    .footer2-content p{
+        font-size: 15px;
+    }
+    /* For our story */
+    .story-mission-width1{
+        height: 650px;
+    }
+    .story-mission-width1 h2{
+        font-size: 48px;
+    }
+    .story-mission-width1 p{
+        max-width: 50%;
+    }
+    .story-mission-width2{
+        margin-top: -400px;
+    }
+    .story-difference-width2 p{
+        margin-top: 20px;
+    }
+    .story-difference-width2 {
+        padding-left: 100px;
+        width: 50%;
+    }
+    .story-difference-width2::after {
+        width: 50%;
+        top: 165px;
+        right: -240px;
+    }
+    /* For our listings */
+    .story-banner-content-list li {
+        font-size: 20px;
+    }
+    .list-item-discription p{
+        font-size: 24px;
+    }
+    .list-item-icons>ul>li>p{
+        font-size: 18px;
+        margin-left: 10px;
+    }
+    .list-item-icons>ul>li{
+        margin-right: 43px;
+    }
+    .list-item-icons>ul {
+        padding: 20px 0px 40px 20px;
+    }
+    .listing-work-with-us{
+        height: 850px;
+    }
+    .advisory-heading h2{
+        font-size: 48px;
+        max-width: 80%;
+    }
+    /* For our services */
+    .flex-rev{
+        margin-top: 50px;
+    }
+    .residence-flex-content{
+        width: 62%;
+        padding: 90px 0px;
+        margin-left: -45px;
+    }
+    .residence-content-width h2 {
+        margin-bottom: 20px;
+    }
+    .residence-flex-content img{
+        margin-bottom: 70px;
+    }
+    .residence-flex:nth-child(even) .residence-flex-content {
+        margin-right: -45px;
+    }
+    .service-work-with-us{
+        height: 850px;
+    }
+    .residence-flex{
+        margin-bottom: 100px;
+    }
+    /* For our team */
+    .advisory-team-heading h2{
+        font-size: 48px;
+    }
+    .team-tower-flex{
+        width: 76%;
+        margin-top: -290px;
+    }
+    .team-tower-content {
+        width: 41%;
+        padding-bottom: 120px;
+    }
+    .team-agent-container{
+        max-width: 1700px;
+        margin: 100px auto;
+    }
+    .team-agent-content{
+        width: 33.33%;
+    }
+    .team-agent-image img{
+        height: 522px;
+    }
+    .agents::after {
+        height: 421px;
+        width: 1000px;
+        top: -75px;
+    }
+    .agents{
+        margin-top: 190px;
+    }
+    /* For team pop-up */
+    .pop-up-agent-content p {
+        margin-bottom: 20px;
+    }
+    .pop-up-agent-content{
+        max-height: 490px;
+    }
+    .pop-up-close{
+        width: 100%;
+    }
+    .pop-up-close p{
+        font-size: 30px;
+        padding: 7px 15px;
+    }
+    .pop-up-agent{
+        max-width: 92%;
+    }
+    .pop-up-agent-main{
+        top: 20%;
+    }
+    /* For transaction page */
+    .tranaction-content h3{
+        font-size: 24px;
+    }
+    .tranaction-content{
+        padding: 40px 30px;
+    }
+    .transaction-work-with-us{
+        height: 850px;
+    }
+    /* For contact us pop-up */
+    .contact-close-btn span:nth-child(1){
+        width: 60px;
+        height: 4px;
+        background: white;
+        transform: rotate(45deg) translate(54px, -50px);
+        display: inline-block;
+    }
+    .contact-close-btn span:nth-child(2){
+        width: 60px;
+        height: 4px;
+        background: white;
+        transform: rotate(-45deg) translate(5px , 10px);
+        display: inline-block;
+    }
+    .contact-heading h1{
+        font-size: 120px;
+    }
+    .contact-form-left h2{
+        font-size: 48px;
+    }
+    .contact-form-right-content h2{
+        font-size: 48px;
+    }
+    .input-fields input{
+        width: 80%;
+        height: 60px;
+    }
+    .input-fields-textarea textarea{
+        width: 80%;
+        height: 150px;
+    }
+    .contact-us-btn{
+        width: 80%;
+        margin-top: 40px;
+    }
+    .contact-form-right-content p:nth-child(2){
+        margin: 40px 0px;
+    }
+    /* For listing page detail */
+    .detail-banner-thumbail-img {
+        margin-top: -340px;
+    }
+    .detail-banner-thumbail-img .slick-track {
+        padding: 120px 0px !important;
+    }
+    .slick-center {
+        margin-top: -120px;
+      }
+    .iamCenterPrevious {
+        margin-top: -80px
+      }
+    
+    .iamCenterAfter {
+        margin-top: -80px
+      }
+    
+    .iamCenterPreviousTwo {
+        margin-top: -40px
+      }
+    
+    .iamCenterAfterTwo {
+        margin-top: -40px
+      }
+    .responsive-map{
+        padding-bottom: 36.45%;
+    }
+    .responsive-map iframe{
+        height: 700px;
+    }
+    
+}
+/* For 1600 x 900 */
+@media (min-width:1600px){
+    p{
+        font-size: 18px;
+        line-height: 30px;
+    }
+    header.active img{
+        width: 60%;
+    }
+    .banner-text h1{
+        font-size: 52px;
+        max-width: 50%;
+    }
+    .tabbing-section h2{
+        font-size: 34px;
+    }
+    ul.tabs2 li a{
+        font-size: 16px;
+    }
+    .service-width1-para{
+        max-width: 50%;
+    }
+    .index-properties-width2{
+        margin-top: -220px;
+    }
+    .service-width1{
+        width: 23.6%;
+    }
+    .founder{
+        max-width: 800px;
+    }
+    .services{
+        padding: 50px 0px;
+    }
+    .work-with-content{
+        padding: 60px;
+        max-width: 37%;
+    }
+    .story-mission-width1{
+        height: 560px;
+    }
+    .story-difference-width2::after{
+        width: 70%;
+        right: -270px;
+    }
+    .list-item-icons>ul>li{
+        padding: 0px 14px;
+    }
+    .list-item-icons>ul>li>p{
+        font-size: 16px;
+        margin-left: 10px;
+    }
+    .advisory-heading h2{
+        font-size: 42px;
+    }
+    .flex-rev{
+        margin-top: 60px;
+    }
+    .residence-flex-content{
+        width: 61%;
+    }
+    .advisory-team-heading h2{
+        font-size: 46px;
+        max-width: 100%;
+    }
+    .footer1-width2-content input{
+        width: 360px;
+    }
+    .team-tower-flex{
+        width: 75%;
+        margin-top: -230px;
+    }
+    .team-tower-content{
+        padding-bottom: 90px;
+    }
+    .team-agent-container{
+        max-width: 1400px;
+    }
+    .team-agent-content{
+        width: 33.33%;
+    }
+    .team-agent-image img{
+        height: 540px;
+    }
+    .agents::after{
+        height: 400px;
+        width: 820px;
+    }
+    .three-agents{
+        width: 70%;
+    }
+    .agents{
+        margin-top: 100px;
+    }
+    .tranaction-content h3{
+        font-size: 22px;
+    }
+    .fancy-box{
+        width: 33.33%;
+    }
+    .contact-heading h1{
+        font-size: 120px;
+    }
+    .contact-form-left h2{
+        font-size: 46px;
+    }
+    .contact-form-right-content h2{
+        font-size: 46px;
+    }
+    .input-fields input{
+        width: 80%;
+        height: 50px;
+    }
+    .input-fields-textarea textarea{
+        height: 160px;
+        width: 80%;
+    }
+    .contact-us-btn{
+        width: 80%;
+        margin-top: 30px;
+    }
+    .contact-close-btn p {
+        font-size: 30px;
+    }
+    .detail-banner-thumbail-img {
+        margin-top: -300px;
+    }
+    .detail-banner-thumbail-img .slick-track {
+        padding: 120px 0px !important;
+    }
+    .slick-center {
+        margin-top: -120px;
+    }
+    .iamCenterPrevious {
+        margin-top: -80px
+    }
+    
+    .iamCenterAfter {
+        margin-top: -80px
+    }
+    
+    .iamCenterPreviousTwo {
+        margin-top: -40px
+    }
+    
+    .iamCenterAfterTwo {
+        margin-top: -40px
+    }
+    .responsive-map{
+        padding-bottom: 40.85%;
+    }
+    .responsive-map iframe{
+        height: 650px;
+    }
+}
+
+/* For 1400 x 900 */
+@media (min-width:1440px)
+{
+    
+    .detail-banner-thumbail-img {
+        margin-top: -270px;
+    }
+    .slick-center {
+        margin-top: -100px;
+    }
+    .iamCenterPrevious{
+        margin-top: -70px;
+    }
+    .iamCenterPreviousTwo {
+        margin-top: -30px;
+    }
+    .iamCenterAfter {
+        margin-top: -70px;
+    }
+    .iamCenterAfterTwo {
+        margin-top: -30px;
+    }
+}
+/*...............
+ For IPad Pro
+ ................*/
+@media (max-width:1024px){
+    p{
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    .header-width1{
+        width: 26%;
+    }
+    .header-width2{
+        width: 74%;
+    }
+    .banner-text h1{
+        max-width: 70%;
+    }
+    .owl-nav::after{
+        width: 50%;
+    }
+    .owl-dots{
+        top: 89%;
+    }
+    .index-properties-width2{
+        margin-top: -140px;
+    }
+    .service-width1-para{
+        max-width: 73%;
+    }
+    .service-width1{
+        width: 31%;
+    }
+    .work-with-content{
+        max-width: 43%;
+    }
+    .footer1-width2-content input{
+        width: 230px;
+    }
+
+    /* for our story page */
+    .our-story-banner{
+        max-height: 70vh;
+    }
+    .story-mission-width1{
+        height: 460px;
+    }
+    .story-mission-width2{
+        margin-top: -230px;
+    }
+    .story-difference-width1::before{
+        height: 88%;
+    }
+    .story-difference-width2 {
+        padding-left: 30px;
+        width: 49%;
+    }
+    .story-difference-width2::after{
+        right: -170px;
+    }
+    /* For Our listing page */
+    .listing-banner{
+        max-height: 70vh;
+    }
+    .listing-section{
+        max-width: 92%;
+    }
+    .list-item-icons>ul{
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0px;
+        margin-bottom: 15px;
+    }
+    .list-item-icons>ul>li{
+        width: 32.33%;
+        margin-top: 15px;
+        padding: 0px 4px;
+        justify-content: center;
+    }
+    .list-item-icons>ul>li>img {
+        width: 30px;
+        height: 30px;
+    }
+    .list-item-icons>ul>li>p{
+        margin-left: 10px;
+        font-size: 16px;
+    }
+    /* For listing detail */
+    .detail-banner-thumbail-img {
+        margin-top: -250px;
+    }
+    .detail-banner-thumbail-img .slick-track {
+        padding: 100px 0px !important;
+    }
+    .slick-center{
+        margin-top: -100px;
+    }
+    .iamCenterPrevious{
+        margin-top: -70px;
+    }
+    .iamCenterPreviousTwo {
+        margin-top: -30px;
+    }
+    .iamCenterAfter {
+        margin-top: -70px;
+    }
+    .iamCenterAfterTwo {
+        margin-top: -30px;
+    }
+    .detail-name ul li span p {
+        font-size: 14px;
+    }
+    /* For our service page */
+    .service-banner{
+        max-height: 70vh;
+    }
+    .advisory-heading h2{
+        font-size: 33px;
+    }
+    .residence-flex-image img{
+        height: 470px;
+    }
+    /* For our team */
+    .team-banner{
+        max-height: 70vh;
+    }
+    .advisory-team-heading h2{
+        max-width: 100%;
+        font-size: 36px;
+    }
+    .team-tower-flex{
+        margin-top: -140px;
+    }
+    .team-tower-image img{
+        height: 500px;
+    }
+    .team-tower-content{
+        padding-bottom: 40px;
+    }
+    .agents::after{
+        width: 530px;
+    }
+    .team-agent-image img{
+        height: 360px;
+    }
+    /* For team pop-up */
+    .pop-up-close{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .pop-up-agent-main{
+        width: 90%;
+        padding: 60px 50px;
+        left: 5%;
+    }
+    .pop-team-agent-image img{
+        height: 360px;
+    }
+    /* For our transactions */
+    .transaction-banner{
+        max-height: 70vh;
+    }
+    /* For our testimonials */
+    .testimo-banner{
+        max-height: 70vh;
+    }
+    .fancy-box{
+        width: 50%;
+    }
+    /* For Contact Us pop-Up */
+    .contact-pop-up{
+        padding: 280px 0px;
+    }
+}
+
+/*...............
+ For IPad
+ ................*/
+@media (max-width:1023px){
+    
+    p{
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    /* For Hamburger */
+    nav.navbar{
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 60%;
+        background: white;
+        left: -60%;
+        color: black;
+        transition: all 0.4s ease-in-out;
+    }
+    nav.navbar ul{
+        margin-top: 140px;
+        margin-left: 15px;
+    }
+    nav.navbar ul li{
+        display: block;
+        margin-bottom: 30px;
+    }
+    nav.navbar ul li a{
+        color: black;
+        font-size: 22px;
+    }
+    nav.navbar.active{
+        left: -3px;
+    }
+    .hamburger{
+        width: 70%;
+        display: block;
+        position: relative;
+        /* width: 75%; */
+        z-index: 2;
+        text-align: right;
+    }
+    .hamburger>button{
+        background: transparent;
+        border: none;
+        width: 30%;
+    }
+    .hamburger> button>span{
+        height: 3px;
+        width: 50px;
+        background: white;
+        margin-bottom: 9px;
+        display: block;
+        transition: 0.4s ease-in-out;
+        margin-left: auto;
+    }
+    .hamburger>button.active span:nth-child(1) {
+        transform: rotate(45deg) translate(8px, 8px);
+    }
+    
+    .hamburger>button.active span:nth-child(2) {
+        display: none;
+    }
+    
+    .hamburger>button.active span:nth-child(3) {
+        transform: rotate(-48deg);
+    }
+    .hamburger button.active {
+        position: relative;
+        z-index: 99;
+    }
+    header.active .hamburger>button>span{
+        background: black;
+    }
+    /* For Header */
+    .header{
+        width: 100%;
+    }
+    .header-width1{
+        z-index: 3;
+        width: 40%;
+    }
+    .header-width1 img{
+        max-width: 100%;
+        transition: all 0.4s;
+    }
+    .header-width1.active img.logo-invert{
+        filter: invert(1);
+    }
+    .header-width2{
+        width: 0;
+    }
+    header.active img{
+        width: 60%;
+    }
+    /*..............
+     For Index Page
+     ...............*/
+    .banner-text h1{
+         max-width: 90%;
+     }
+    .owl-nav{
+         max-width: 90%;
+     }
+    .owl-nav::after{
+        width: 74%;
+    }
+    .owl-dots{
+        top: 92%;
+        left: 7%;
+    }
+    .tabbing-section{
+        padding: 40px 0px;
+    }
+    .properties-back {
+        background-image: linear-gradient(to bottom, #F9F9F9 35%, white 0%);
+    }
+    .index-properties-width2{
+        width: 100%;
+        margin: 0;
+        padding: 40px 40px;
+    }
+    .service-width1-para{
+        max-width: 100%;
+    }
+    .service-width1{
+        width: 47%;
+    }
+    .work-with-us{
+        height: 500px;
+    }
+    .work-with-content {
+        width: 60%;
+        max-width: 70%;
+    }
+
+    /* For Our Story */
+    .our-story-banner{
+        max-height: 70vh;
+    }
+    .story-mission-width1{
+        height: 460px;
+    }
+    .story-mission-width2{
+        margin-top: -180px;
+        width: 80%;
+    }
+    .story-difference-container{
+        display: block;
+    }
+    .story-difference-width1{
+        width: 100%;
+        padding: 0;
+    }
+    .story-difference-width1::before{
+        height: 89%;
+        left: -30px;
+    }
+    .story-difference-width2{
+        width: 100%;
+        padding: 0;
+    }
+    .story-difference-width2::after{
+        display: none;
+    }
+    .story-work-with-us{
+        height: 500px;
+    }
+
+    /* For Listing Page */
+    .listing-banner{
+        max-height: 70vh;
+    }
+    .list-item-icons>ul{
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0px;
+        margin-bottom: 15px;
+    }
+    .listing-section{
+        max-width: 92%;
+    }
+    .list-item-icons>ul>li{
+        width: 32.33%;
+        margin-top: 15px;
+        padding: 0px 4px;
+    }
+    .list-item-icons>ul>li>img {
+        width: 26px;
+        height: 26px;
+    }
+    /* For listing details */
+    .thumbail-img{
+        padding: 0px 10px;
+    }
+    .slider-nav{
+        margin-top: -210px;
+    }
+    .iamCenterPreviousTwo{
+        margin-top: 0px;
+    }
+    .iamCenterPrevious{
+        margin-top: -30px;
+    }
+    .slick-center{
+        margin-top: -60px;
+    }
+    .iamCenterAfter{
+        margin-top: -30px;
+    }
+    .iamCenterAfterTwo{
+        margin-top: 0px;
+    }
+    .listing-detail-flex{
+        display: block;
+    }
+    .listing-detail-width1{
+        width: 100%;
+    }
+    .listing-detail-width2 {
+        width: 100%;
+        margin-top: 40px;
+    }
+    /* For Service Page */
+    .service-banner{
+        max-height: 70vh;
+    }
+    .advisory-container{
+        max-width: 92%;
+    }
+    .advisory-heading{
+        width: 100%;
+        text-align: center;
+    }
+    .advisory-para{
+        width: 100%;
+        margin-top: 15px;
+    }
+    .residence-flex-image{
+        width: 55%;
+    }
+    .residence-flex-image img{
+        height: 500px;
+    }
+    .residence-flex-content{
+        width: 61%;
+        margin-left: -115px;
+    }
+    .residence-flex:nth-child(even) .residence-flex-content{
+        margin-right: -115px;
+    }
+
+    /* For Our Team */
+    .team-banner{
+        max-height: 70vh;
+    }
+    .advisory-team-heading{
+        width: 33%;
+    }
+    .advisory-team-heading h2{
+        font-size: 30px;
+        max-width: 100%;
+    }
+    .team-tower-flex{
+        width: 90%;
+        margin-top: -110px;
+    }
+    .team-tower-image img{
+        height: 440px;
+    }
+    .team-tower-content{
+        padding-bottom: 10px;
+    }
+    .team-agent-content{
+        width: 33%;
+    }
+    .team-agent-image img{
+        height: 300px;
+    }
+    .agents::after {
+        height: 220px;
+        width: 400px;
+    }    
+    .pop-up-agent-image{
+        width: 35%;
+    }
+    .pop-up-agent-main{
+        width: 90%;
+        left: 5%;
+    }
+    .pop-team-agent-image img{
+        height: 300px;
+    }
+    .pop-up-close{
+        width: 100%;
+    }
+
+    /* For Our Transaction */
+    .transaction-banner{
+        max-height: 70vh;
+        background-repeat: no-repeat;
+    }
+
+    /* For Testimonials Page */
+    .testimo-banner{
+        max-height: 70vh;
+    }
+    .fancy-box{
+        width: 50%;
+    }
+
+    /* For Contact Us Pop-Up */
+    .contact-pop-up{
+        padding: 190px 0px;
+    }
+    .contact-flex{
+        max-width: 95%;
+    }
+    .input-fields input{
+        width: 80%;
+    }
+    .input-fields-textarea textarea{
+        width: 80%;
+    }
+    .contact-us-btn{
+        width: 80%;
+    }
+    .contact-form-right-content{
+        width: 84%;
+    }
+    .contact-close-btn p {
+        font-size: 20px;
+    }
+    /* For Footer */
+    .footer1-width2{
+        display: block;
+    }
+    .footer1-width2-content{
+        width: 50%;
+        margin-top: 10px;
+    }
+    .footer1-width2-content button{
+        right: 55px;
+    }
+
+}
+
+
+/*...............
+ For Mobile Phone
+ ................*/
+ @media (max-width: 767px){
+    p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    h1{
+        max-width: 100%;
+        font-size: 38px;
+    }
+    /* For Hamburger */
+    nav.navbar{
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 60%;
+        background: white;
+        left: -60%;
+        color: black;
+        transition: all 0.4s ease-in-out;
+    }
+    nav.navbar ul{
+        margin-top: 80px;
+    }
+    nav.navbar ul li{
+        display: block;
+        margin-bottom: 20px;
+    }
+    nav.navbar ul li a{
+        color: black;
+    }
+    nav.navbar.active{
+        left: -3px;
+    }
+    .hamburger{
+        width: 70%;
+        display: block;
+        position: relative;
+        /* width: 75%; */
+        z-index: 2;
+        text-align: right;
+    }
+    .hamburger>button{
+        background: transparent;
+        border: none;
+        width: 30%;
+    }
+    .hamburger> button>span{
+        height: 3px;
+        width: 50px;
+        background: white;
+        margin-bottom: 9px;
+        display: block;
+        transition: 0.4s ease-in-out;
+    }
+    .hamburger>button.active span:nth-child(1) {
+        transform: rotate(45deg) translate(8px, 8px);
+    }
+    
+    .hamburger>button.active span:nth-child(2) {
+        display: none;
+    }
+    
+    .hamburger>button.active span:nth-child(3) {
+        transform: rotate(-48deg);
+    }
+    .hamburger button.active {
+        position: relative;
+        z-index: 99;
+    }
+    .header-width1{
+        z-index: 3;
+        width: 40%;
+    }
+    .header-width1 img{
+        max-width: 100%;
+        transition: all 0.4s;
+    }
+    .header-width1.active img.logo-invert{
+        filter: invert(1);
+    }
+    header.active .hamburger>button>span{
+        background: black;
+    }
+    /* For Header */
+    header{
+        width: 100%;
+    }
+    .header-width2{
+        width: 0%;
+    }
+    header.active{
+        background: white;
+        color: black;
+    }
+    header.active img{
+        width: 80%;
+        filter: invert(1);
+    }
+    /*..............
+     FOr index page 
+     ...............*/
+    .banner-text h1{
+        max-width: 90%;
+        font-size: 38px;
+    }
+    .owl-nav{
+        max-width: 90%;
+        margin-top: 10px !important;
+    }
+    .owl-dots {
+        top: 84.4%;
+        left: 7%;
+    }  
+    .item{
+        padding: 0;
+    }  
+    .item:hover .item-content{
+        transform: translate(0px, -10px);
+    }
+    .tabbing-section{
+        padding: 30px 0px;
+    }
+    .index-properties-flex{
+        display: block;
+    }
+    .index-properties-width2{
+        width: 100%;
+        margin: 0;
+        padding: 20px 10px;
+    }
+    .properties-back{
+        background: none;
+    }
+    .service-width1-para{
+        max-width: 100%;
+    }
+    .service-width1-content{
+        display: block;
+        margin-top: 10px;
+    }
+    .service-width1{
+        width: 100%;
+        margin: 10px 0px;
+    }
+    .founder{
+        max-width: 92%;
+        margin: 0 auto;
+        display: block;
+    }
+    .founder-content{
+        width: 100%;
+        padding: 0;
+    }
+    .founder-pic{
+        width: 100%;
+    }
+    .work-with-us{
+        display: flex;
+        height: 450px;
+    }
+    .work-with-flex{
+        margin-top: auto;
+    }
+    .work-with-content{
+        max-width: 100%;
+        width: 100%;
+    }
+    /*....................
+     End for Header Page
+    ...................... */
+
+    /*...................
+     For Our Story Page
+    ..................... */
+    .our-story-banner{
+        max-height: 50vh;
+    }
+    .story-mission-width1{
+        height: 420px;
+    }
+    .story-mission-width2{
+        margin-top: -100px;
+        width: 80%;
+    }
+    .story-difference-container{
+        max-width: 90%;
+        display: block;
+    }
+    .story-difference-width1{
+        width: 100%;
+    }
+    .story-difference-width1 img{
+        height: 450px;
+    }
+    .story-difference-width1::before{
+        height: 94%;
+    }
+    .story-difference-width2{
+        padding: 0;
+        width: 100%;
+    }
+    .story-difference-width2::after{
+        display: none;
+    }
+    .story-work-with-us{
+        height: 450px;
+    }
+    /*...................
+     End For Our Story Page
+    ..................... */
+
+    /*...................
+     For Our Listing Page
+    ..................... */
+    .listing-banner{
+        height: 50vh;
+    }
+    .listing-section{
+        max-width: 90%;
+    }
+    .listing-section-width{
+        width: 100%;
+    }
+    .list-item-icons>ul{
+        padding: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .list-item-icons>ul>li{
+        width: 32.33%;
+        margin-top: 15px;
+    }
+    .list-item-discription p{
+        font-size: 18px;
+    }
+    .listing-work-with-us{
+        height: 450px;
+    }
+    /*...................
+     End For Our Listing Page
+    ..................... */
+
+    /*...................
+    For Our Services Page
+    ..................... */
+    .service-banner{
+        background-position: revert;
+        height: 50vh;
+    }
+    .advisory-container{
+        max-width: 90%;
+    }
+    .advisory-services{
+        display: block;
+    }
+    .advisory-heading {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .advisory-para {
+        width: 100%;
+    }
+    .advisory-heading h2{
+        font-size: 32px;
+    }  
+    .residence-flex{
+        display: block;
+        margin-bottom: 30px;
+    }  
+    .residence-flex-image{
+        width: 100%;
+    }
+    .residence-flex-content {
+        width: 100%;
+        background: #F9F9F9;
+        padding: 40px 0px;
+        margin-left: 0px;
+    }
+    .residence-flex:nth-child(even) .residence-flex-content {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .service-work-with-us{
+        height: 450px;
+    }
+    /*...................
+     End For Our Services Page
+    ..................... */
+
+
+    /*........................
+     For Our Testomonials Page
+    .......................... */
+    .testimo-banner{
+        max-height: 50vh;
+    }
+    .testimo-container{
+        max-width: 90%;
+        padding: 10px 0px;
+    }
+    .fancy-box{
+        padding: 0;
+        width: 100%;
+        height: 300px;
+    }
+    /* For Contact Pop-Up */
+    .contact-pop-up{
+        overflow: scroll;
+    }
+    .contact-flex{
+        max-width: 90%;
+    }
+    .contact-form-flex{
+        flex-wrap: wrap;
+    }
+    .contact-heading{
+        padding: 0;
+    }
+    .contact-form-left{
+        width: 100%;
+        text-align: center;
+    }
+    .contact-form-left::after{
+        display: none;
+    }
+    .input-fields input{
+        width: 90%;
+    }
+    .input-fields label{
+        left: 23px;
+    }
+    .input-fields-textarea textarea{
+        width: 90%;
+    }
+    .input-fields-textarea label{
+        left: 23px;
+    }
+    .contact-form-right{
+        width: 100%;
+    }
+    .contact-form-right-content{
+        width: 90%;
+        margin-top: 20px;
+    }
+    /*............................
+     End For Our Testimonials Page
+    .............................. */
+
+
+
+     /*.......................
+     For Listing Details Page
+    .......................... */
+        
+        .detail-banner-img-slider .slick-slide{
+            height: 50vh;
+        }
+        .main-img img{
+            height: 50vh;
+        }
+        .detail-banner-thumbail-img{
+            margin-top: -200px;
+        }
+        .iamCenterPrevious{
+            margin-top: 0px;
+        }
+        .slick-center{
+            margin-top: -40px;
+        }
+        .iamCenterAfter{
+            margin-top: 0px;
+        }
+        .slider-nav img{
+            padding: 0px 20px;
+        }
+        .listing-detail-flex{
+            width: 90%;
+            flex-wrap: wrap;
+            margin-top: -50px;
+        }
+        .listing-detail-width1{
+            width: 100%;
+        }
+        .listing-detail-width2{
+            width: 100%;
+            margin-top: 20px;
+        }
+        .responsive-map{
+            overflow: hidden;
+            padding-bottom:80%;
+            position:relative;
+            height:0;
+            }
+        .responsive-map iframe{
+            left:0;
+            top:0;
+            height:500px;
+            width:100%;
+            position:absolute;
+        }
+     /*............................
+     End For lsiting deatils Page
+    .............................. */
+
+    /*...................
+     For Our Team Page
+    ..................... */
+    .team-banner{
+        height: 60vh;
+    }
+    .advisory-team{
+        display: block;
+        margin: 0 auto;
+        max-width: 90%;
+        margin-top: 40px;
+    }
+    .advisory-team-heading{
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+    .advisory-team-heading h2{
+        max-width: 100%;
+        font-size: 32px;
+    }
+    .advisory-team-image{
+        width: 100%;
+    }
+
+    .team-tower-flex{
+        width: 90%;
+        margin: 0 auto;
+        flex-wrap: wrap-reverse;
+    }
+    .team-tower-image{
+        padding: 0;
+        width: 100%;
+    }
+    .team-tower-content{
+        padding: 0;
+        width: 100%;
+        margin: 20px 0px;
+    }
+    .team-agent-container{
+        max-width: 90%;
+    }
+    .team-agent-content{
+        width: 100%;
+        padding: 0px;
+    }
+    .agents::after{
+        display: none;
+    }
+    .agents{
+        margin: 0;
+    }
+    .three-agents{
+        width: 85%;
+        margin-bottom: 30px;
+    }
+
+    /* For Team Pop-Up */
+    .pop-up-agent-main{
+        width: 90%;
+        left: 4.5%;
+        padding: 40px 20px;
+    }
+    .pop-up-agent{
+        display: block;
+    }
+    .pop-up-close p{
+        padding: 5px 12px;
+    }
+    .pop-up-agent-image{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .pop-up-agent-content {
+        width: 90%;
+        margin: 0 auto;
+        padding-left: 0px;
+        min-height: 240px;
+        max-height: 240px;
+        margin-top: 15px;
+    }
+    /*...................
+     End For Our Team Page
+    ..................... */
+
+    /*........................
+     For Our Transactions Page
+    .......................... */
+    .transaction-banner{
+        max-height: 50vh;
+    }
+    .transaction-flex{
+        width: 90%;
+    }
+    .transaction-width{
+        width: 100%;
+    }
+    .transaction-work-with-us{
+        height: 450px;
+    }
+    /*............................
+     End For Our Transactions Page
+    ..................... ........*/
+
+
+    /* For Footer */
+    .footer1-width1 img{
+        width: 60%;
+        height: auto;
+    }
+    .footer1-width2{
+        display: block;
+    }
+    .footer1-width2-content{
+        width: 100%;
+        margin-top: 15px;
+    }
+    .footer1-width2-content input{
+        width: 200px;
+    }
+    .footer1-width2-content button{
+        right: 138px;
+    }
+ }
